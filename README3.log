@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.9)  14 JUN 2024 15:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.9)  14 JUN 2024 17:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -368,7 +368,7 @@ File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO
 Package: xurl 2022/01/09 v 0.10 modify URL breaks
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 81.
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 88
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 96
 .
 (/usr/local/texlive/2024/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -379,37 +379,37 @@ File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
 ) (./README3.aux)
 \openout1 = `README3.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Info: Redefining \microtypecontext on input line 88.
-Package microtype Info: Applying patch `item' on input line 88.
-Package microtype Info: Applying patch `toc' on input line 88.
-Package microtype Info: Applying patch `eqnum' on input line 88.
-Package microtype Info: Applying patch `footnote' on input line 88.
-Package microtype Info: Applying patch `verbatim' on input line 88.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Info: Redefining \microtypecontext on input line 96.
+Package microtype Info: Applying patch `item' on input line 96.
+Package microtype Info: Applying patch `toc' on input line 96.
+Package microtype Info: Applying patch `eqnum' on input line 96.
+Package microtype Info: Applying patch `footnote' on input line 96.
+Package microtype Info: Applying patch `verbatim' on input line 96.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using protrusion set `basicmath'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 88.
+LaTeX Info: Redefining \showhyphens on input line 96.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -471,49 +471,49 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 88.
+Package hyperref Info: Link coloring ON on input line 96.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 9
-0.
+8.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 9
-0.
+8.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-90.
+98.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-90.
+98.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 90.
+(Font)              <12> on input line 98.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 90.
+(Font)              <8> on input line 98.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 90.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 90.
+(Font)              <6> on input line 98.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 98.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 90.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 98.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Trying to load font information for T1+lmss on input line 9
-4.
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 1
+02.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (./README3.toc
@@ -532,158 +532,153 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 {/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
 al/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}]
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
-16.
+24.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [2{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}]
 <pics/features.png, id=81, 800.9925pt x 321.2pt>
 File: pics/features.png Graphic file (type png)
 <use pics/features.png>
-Package pdftex.def Info: pics/features.png  used on input line 193.
-(pdftex.def)             Requested size: 452.97716pt x 181.64497pt.
+Package pdftex.def Info: pics/features.png  used on input line 201.
+(pdftex.def)             Requested size: 349.38225pt x 140.10315pt.
 <pics/train_processid_plot.png, id=83, 270.2898pt x 398.9304pt>
 File: pics/train_processid_plot.png Graphic file (type png)
 <use pics/train_processid_plot.png>
-Package pdftex.def Info: pics/train_processid_plot.png  used on input line 206.
+Package pdftex.def Info: pics/train_processid_plot.png  used on input line 221.
 
-(pdftex.def)             Requested size: 156.62796pt x 231.17282pt.
+(pdftex.def)             Requested size: 142.38681pt x 210.1538pt.
 [3 <./pics/features.png> <./pics/train_processid_plot.png>]
 <pics/train_threadid_plot.png, id=92, 270.2898pt x 454.5783pt>
 File: pics/train_threadid_plot.png Graphic file (type png)
 <use pics/train_threadid_plot.png>
-Package pdftex.def Info: pics/train_threadid_plot.png  used on input line 220.
+Package pdftex.def Info: pics/train_threadid_plot.png  used on input line 235.
 (pdftex.def)             Requested size: 145.78522pt x 245.18423pt.
 <pics/train_parentprocessid_plot.png, id=93, 383.031pt x 510.2262pt>
 File: pics/train_parentprocessid_plot.png Graphic file (type png)
 <use pics/train_parentprocessid_plot.png>
 Package pdftex.def Info: pics/train_parentprocessid_plot.png  used on input lin
-e 232.
+e 250.
 (pdftex.def)             Requested size: 173.53711pt x 231.16454pt.
 [4 <./pics/train_threadid_plot.png> <./pics/train_parentprocessid_plot.png>]
 <pics/train_userid_plot.png, id=102, 384.4764pt x 231.9867pt>
 File: pics/train_userid_plot.png Graphic file (type png)
 <use pics/train_userid_plot.png>
-Package pdftex.def Info: pics/train_userid_plot.png  used on input line 250.
+Package pdftex.def Info: pics/train_userid_plot.png  used on input line 268.
 (pdftex.def)             Requested size: 232.18947pt x 140.09927pt.
 <pics/train_mountnamespace_plot.png, id=103, 435.0654pt x 315.8199pt>
 File: pics/train_mountnamespace_plot.png Graphic file (type png)
 <use pics/train_mountnamespace_plot.png>
 Package pdftex.def Info: pics/train_mountnamespace_plot.png  used on input line
- 265.
+ 284.
 (pdftex.def)             Requested size: 318.4581pt x 231.17308pt.
 [5 <./pics/train_userid_plot.png> <./pics/train_mountnamespace_plot.png>]
 <pics/train_processname_plot.png, id=112, 463.2507pt x 506.6127pt>
 File: pics/train_processname_plot.png Graphic file (type png)
 <use pics/train_processname_plot.png>
-Package pdftex.def Info: pics/train_processname_plot.png  used on input line 28
-3.
+Package pdftex.def Info: pics/train_processname_plot.png  used on input line 30
+4.
 (pdftex.def)             Requested size: 275.43613pt x 301.21797pt.
 <pics/train_hostname_plot.png, id=113, 470.4777pt x 312.9291pt>
 File: pics/train_hostname_plot.png Graphic file (type png)
 <use pics/train_hostname_plot.png>
-Package pdftex.def Info: pics/train_hostname_plot.png  used on input line 295.
+Package pdftex.def Info: pics/train_hostname_plot.png  used on input line 321.
 (pdftex.def)             Requested size: 263.3006pt x 175.12926pt.
 [6 <./pics/train_processname_plot.png> <./pics/train_hostname_plot.png>]
 <pics/train_eventid_plot.png, id=122, 725.5908pt x 313.6518pt>
 File: pics/train_eventid_plot.png Graphic file (type png)
 <use pics/train_eventid_plot.png>
-Package pdftex.def Info: pics/train_eventid_plot.png  used on input line 309.
+Package pdftex.def Info: pics/train_eventid_plot.png  used on input line 338.
 (pdftex.def)             Requested size: 452.98384pt x 195.81172pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 313--314
-
- []
-
 <pics/train_eventname_plot.png, id=123, 725.5908pt x 313.6518pt>
 File: pics/train_eventname_plot.png Graphic file (type png)
 <use pics/train_eventname_plot.png>
-Package pdftex.def Info: pics/train_eventname_plot.png  used on input line 323.
+Package pdftex.def Info: pics/train_eventname_plot.png  used on input line 344.
 
 (pdftex.def)             Requested size: 452.98384pt x 195.81172pt.
 [7 <./pics/train_eventid_plot.png> <./pics/train_eventname_plot.png>]
 <pics/ReturnValue_barplot.png, id=133, 338.2236pt x 395.3169pt>
 File: pics/ReturnValue_barplot.png Graphic file (type png)
 <use pics/ReturnValue_barplot.png>
-Package pdftex.def Info: pics/ReturnValue_barplot.png  used on input line 341.
+Package pdftex.def Info: pics/ReturnValue_barplot.png  used on input line 362.
 (pdftex.def)             Requested size: 209.76872pt x 245.17838pt.
 <pics/train_stackaddresses-length_plot2.png, id=134, 1061.6463pt x 395.3169pt>
 File: pics/train_stackaddresses-length_plot2.png Graphic file (type png)
 <use pics/train_stackaddresses-length_plot2.png>
 Package pdftex.def Info: pics/train_stackaddresses-length_plot2.png  used on in
-put line 375.
+put line 396.
 (pdftex.def)             Requested size: 452.96754pt x 168.66795pt.
 <pics/train_stackaddresses_plot.png, id=135, 859.2903pt x 570.933pt>
 File: pics/train_stackaddresses_plot.png Graphic file (type png)
 <use pics/train_stackaddresses_plot.png>
 Package pdftex.def Info: pics/train_stackaddresses_plot.png  used on input line
- 381.
+ 402.
 (pdftex.def)             Requested size: 421.72462pt x 280.2039pt.
 [8 <./pics/ReturnValue_barplot.png> <./pics/train_stackaddresses-length_plot2.p
 ng>]
 <pics/argsNum_barplot.png, id=144, 633.0852pt x 395.3169pt>
 File: pics/argsNum_barplot.png Graphic file (type png)
 <use pics/argsNum_barplot.png>
-Package pdftex.def Info: pics/argsNum_barplot.png  used on input line 395.
+Package pdftex.def Info: pics/argsNum_barplot.png  used on input line 423.
 (pdftex.def)             Requested size: 280.45172pt x 175.12224pt.
 [9 <./pics/train_stackaddresses_plot.png> <./pics/argsNum_barplot.png>]
 <pics/sus_distributions.png, id=153, 426.393pt x 570.933pt>
 File: pics/sus_distributions.png Graphic file (type png)
 <use pics/sus_distributions.png>
-Package pdftex.def Info: pics/sus_distributions.png  used on input line 433.
+Package pdftex.def Info: pics/sus_distributions.png  used on input line 461.
 (pdftex.def)             Requested size: 313.91232pt x 420.32329pt.
 [10 <./pics/sus_distributions.png>]
 <pics/Evil_plot.png, id=160, 425.6703pt x 426.393pt>
 File: pics/Evil_plot.png Graphic file (type png)
 <use pics/Evil_plot.png>
-Package pdftex.def Info: pics/Evil_plot.png  used on input line 450.
+Package pdftex.def Info: pics/Evil_plot.png  used on input line 478.
 (pdftex.def)             Requested size: 419.60922pt x 420.32164pt.
 [11 <./pics/Evil_plot.png>]
 <pics/Correlation matrix.png, id=167, 1123.7985pt x 604.1772pt>
 File: pics/Correlation matrix.png Graphic file (type png)
 <use pics/Correlation matrix.png>
-Package pdftex.def Info: pics/Correlation matrix.png  used on input line 460.
+Package pdftex.def Info: pics/Correlation matrix.png  used on input line 488.
 (pdftex.def)             Requested size: 452.95815pt x 243.5196pt.
 [12 <./pics/Correlation matrix.png>]
 <pics/frequency_sus&notsus.png, id=174, 828.84656pt x 266.49562pt>
 File: pics/frequency_sus&notsus.png Graphic file (type png)
 <use pics/frequency_sus&notsus.png>
-Package pdftex.def Info: pics/frequency_sus&notsus.png  used on input line 562.
+Package pdftex.def Info: pics/frequency_sus&notsus.png  used on input line 590.
 
 (pdftex.def)             Requested size: 452.95816pt x 145.63777pt.
 [13 <./pics/frequency_sus&notsus.png>]
 <pics/Ordinal encoder.png, id=182, 568.7649pt x 284.0211pt>
 File: pics/Ordinal encoder.png Graphic file (type png)
 <use pics/Ordinal encoder.png>
-Package pdftex.def Info: pics/Ordinal encoder.png  used on input line 627.
+Package pdftex.def Info: pics/Ordinal encoder.png  used on input line 655.
 (pdftex.def)             Requested size: 452.97305pt x 226.19873pt.
 [14 <./pics/Ordinal encoder.png>]
 <pics/Smote_pca.png, id=190, 505.1673pt x 284.0211pt>
 File: pics/Smote_pca.png Graphic file (type png)
 <use pics/Smote_pca.png>
-Package pdftex.def Info: pics/Smote_pca.png  used on input line 653.
+Package pdftex.def Info: pics/Smote_pca.png  used on input line 681.
 (pdftex.def)             Requested size: 452.97368pt x 254.67618pt.
 [15 <./pics/Smote_pca.png>]
 <pics/Dense-model1-structure.png, id=197, 546.04pt x 3226.0525pt>
 File: pics/Dense-model1-structure.png Graphic file (type png)
 <use pics/Dense-model1-structure.png>
-Package pdftex.def Info: pics/Dense-model1-structure.png  used on input line 69
-8.
+Package pdftex.def Info: pics/Dense-model1-structure.png  used on input line 73
+3.
 (pdftex.def)             Requested size: 59.28139pt x 350.23967pt.
 [16 <./pics/Dense-model1-structure.png>]
 <pics/Dense_training.png, id=205, 518.1759pt x 284.0211pt>
 File: pics/Dense_training.png Graphic file (type png)
 <use pics/Dense_training.png>
-Package pdftex.def Info: pics/Dense_training.png  used on input line 720.
+Package pdftex.def Info: pics/Dense_training.png  used on input line 755.
 (pdftex.def)             Requested size: 249.13275pt x 136.55392pt.
 <pics/Dense_training2.png, id=206, 505.89pt x 284.0211pt>
 File: pics/Dense_training2.png Graphic file (type png)
 <use pics/Dense_training2.png>
-Package pdftex.def Info: pics/Dense_training2.png  used on input line 725.
+Package pdftex.def Info: pics/Dense_training2.png  used on input line 760.
 (pdftex.def)             Requested size: 249.13878pt x 139.87363pt.
 <pics/Dense_confusionmatrix.png, id=207, 444.4605pt x 312.2064pt>
 File: pics/Dense_confusionmatrix.png Graphic file (type png)
 <use pics/Dense_confusionmatrix.png>
-Package pdftex.def Info: pics/Dense_confusionmatrix.png  used on input line 740
+Package pdftex.def Info: pics/Dense_confusionmatrix.png  used on input line 775
 .
 (pdftex.def)             Requested size: 249.30988pt x 175.12498pt.
 [17 <./pics/Dense_training.png> <./pics/Dense_training2.png> <./pics/Dense_conf
@@ -691,44 +686,44 @@ usionmatrix.png>]
 <pics/Dense-model2-structure.png, id=217, 3799.19376pt x 4547.99126pt>
 File: pics/Dense-model2-structure.png Graphic file (type png)
 <use pics/Dense-model2-structure.png>
-Package pdftex.def Info: pics/Dense-model2-structure.png  used on input line 76
-1.
+Package pdftex.def Info: pics/Dense-model2-structure.png  used on input line 79
+6.
 (pdftex.def)             Requested size: 351.0721pt x 420.26624pt.
 [18 <./pics/Dense-model2-structure.png>]
 <pics/Dense2_training.png, id=224, 512.3943pt x 284.0211pt>
 File: pics/Dense2_training.png Graphic file (type png)
 <use pics/Dense2_training.png>
-Package pdftex.def Info: pics/Dense2_training.png  used on input line 778.
+Package pdftex.def Info: pics/Dense2_training.png  used on input line 813.
 (pdftex.def)             Requested size: 249.1286pt x 138.09244pt.
 <pics/Dense2_training2.png, id=225, 511.6716pt x 284.0211pt>
 File: pics/Dense2_training2.png Graphic file (type png)
 <use pics/Dense2_training2.png>
-Package pdftex.def Info: pics/Dense2_training2.png  used on input line 783.
+Package pdftex.def Info: pics/Dense2_training2.png  used on input line 818.
 (pdftex.def)             Requested size: 249.13635pt x 138.29178pt.
 <pics/Dense2_confusionmatrix.png, id=226, 444.4605pt x 312.2064pt>
 File: pics/Dense2_confusionmatrix.png Graphic file (type png)
 <use pics/Dense2_confusionmatrix.png>
-Package pdftex.def Info: pics/Dense2_confusionmatrix.png  used on input line 80
-1.
+Package pdftex.def Info: pics/Dense2_confusionmatrix.png  used on input line 83
+6.
 (pdftex.def)             Requested size: 249.30988pt x 175.12498pt.
 [19 <./pics/Dense2_training.png> <./pics/Dense2_training2.png> <./pics/Dense2_c
 onfusionmatrix.png>]
 <pics/Dense-smote-structure.png, id=237, 546.04pt x 3556.28625pt>
 File: pics/Dense-smote-structure.png Graphic file (type png)
 <use pics/Dense-smote-structure.png>
-Package pdftex.def Info: pics/Dense-smote-structure.png  used on input line 818
+Package pdftex.def Info: pics/Dense-smote-structure.png  used on input line 853
 .
 (pdftex.def)             Requested size: 64.53047pt x 420.27847pt.
 <pics/Dense_smote_training2.png, id=238, 511.6716pt x 284.0211pt>
 File: pics/Dense_smote_training2.png Graphic file (type png)
 <use pics/Dense_smote_training2.png>
-Package pdftex.def Info: pics/Dense_smote_training2.png  used on input line 833
+Package pdftex.def Info: pics/Dense_smote_training2.png  used on input line 868
 .
 (pdftex.def)             Requested size: 249.13635pt x 138.29178pt.
 <pics/Dense_smote_training.png, id=239, 502.2765pt x 284.0211pt>
 File: pics/Dense_smote_training.png Graphic file (type png)
 <use pics/Dense_smote_training.png>
-Package pdftex.def Info: pics/Dense_smote_training.png  used on input line 838.
+Package pdftex.def Info: pics/Dense_smote_training.png  used on input line 873.
 
 (pdftex.def)             Requested size: 249.1373pt x 140.87907pt.
 
@@ -739,174 +734,174 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: pics/Dense_smote_confusionmatrix.png Graphic file (type png)
 <use pics/Dense_smote_confusionmatrix.png>
 Package pdftex.def Info: pics/Dense_smote_confusionmatrix.png  used on input li
-ne 856.
+ne 891.
 (pdftex.def)             Requested size: 249.30988pt x 175.12498pt.
 [21 <./pics/Dense_smote_training2.png> <./pics/Dense_smote_training.png> <./pic
 s/Dense_smote_confusionmatrix.png>]
 <pics/Dense-model4-structure.png, id=255, 136.71075pt x 554.07pt>
 File: pics/Dense-model4-structure.png Graphic file (type png)
 <use pics/Dense-model4-structure.png>
-Package pdftex.def Info: pics/Dense-model4-structure.png  used on input line 87
-5.
+Package pdftex.def Info: pics/Dense-model4-structure.png  used on input line 91
+0.
 (pdftex.def)             Requested size: 103.70723pt x 420.31131pt.
 [22 <./pics/Dense-model4-structure.png>]
 <pics/Dense-model4-training.png, id=262, 316.7835pt x 351.11176pt>
 File: pics/Dense-model4-training.png Graphic file (type png)
 <use pics/Dense-model4-training.png>
-Package pdftex.def Info: pics/Dense-model4-training.png  used on input line 888
+Package pdftex.def Info: pics/Dense-model4-training.png  used on input line 923
 .
 (pdftex.def)             Requested size: 252.81325pt x 280.20937pt.
 <pics/Dense-model4-confusionmatrix.png, id=263, 236.68425pt x 194.52675pt>
 File: pics/Dense-model4-confusionmatrix.png Graphic file (type png)
 <use pics/Dense-model4-confusionmatrix.png>
 Package pdftex.def Info: pics/Dense-model4-confusionmatrix.png  used on input l
-ine 898.
+ine 933.
 (pdftex.def)             Requested size: 213.08969pt x 175.13477pt.
 [23 <./pics/Dense-model4-training.png> <./pics/Dense-model4-confusionmatrix.png
 >]
-Underfull \hbox (badness 10000) in paragraph at lines 912--922
+Underfull \hbox (badness 10000) in paragraph at lines 947--957
 
  []
 
 <pics/Conv-model1-structure.png, id=272, 304.13625pt x 1613.02625pt>
 File: pics/Conv-model1-structure.png Graphic file (type png)
 <use pics/Conv-model1-structure.png>
-Package pdftex.def Info: pics/Conv-model1-structure.png  used on input line 925
+Package pdftex.def Info: pics/Conv-model1-structure.png  used on input line 960
 .
 (pdftex.def)             Requested size: 79.2499pt x 420.31223pt.
 [24 <./pics/Conv-model1-structure.png>]
 <pics/Conv-model1-training2.png, id=279, 512.3943pt x 284.0211pt>
 File: pics/Conv-model1-training2.png Graphic file (type png)
 <use pics/Conv-model1-training2.png>
-Package pdftex.def Info: pics/Conv-model1-training2.png  used on input line 942
+Package pdftex.def Info: pics/Conv-model1-training2.png  used on input line 977
 .
 (pdftex.def)             Requested size: 226.47841pt x 125.53738pt.
 <pics/Conv-model1-training.png, id=280, 505.89pt x 284.0211pt>
 File: pics/Conv-model1-training.png Graphic file (type png)
 <use pics/Conv-model1-training.png>
-Package pdftex.def Info: pics/Conv-model1-training.png  used on input line 947.
+Package pdftex.def Info: pics/Conv-model1-training.png  used on input line 982.
 
 (pdftex.def)             Requested size: 226.48277pt x 127.1539pt.
 <pics/Conv-model1-confusionmatrix.png, id=281, 385.1991pt x 312.2064pt>
 File: pics/Conv-model1-confusionmatrix.png Graphic file (type png)
 <use pics/Conv-model1-confusionmatrix.png>
 Package pdftex.def Info: pics/Conv-model1-confusionmatrix.png  used on input li
-ne 959.
+ne 994.
 (pdftex.def)             Requested size: 216.06856pt x 175.12498pt.
 [25 <./pics/Conv-model1-training2.png> <./pics/Conv-model1-training.png> <./pic
 s/Conv-model1-confusionmatrix.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 970--981
+Underfull \hbox (badness 10000) in paragraph at lines 1005--1016
 
  []
 
 <pics/Conv-model2-structure.png, id=292, 991.705pt x 1282.7925pt>
 File: pics/Conv-model2-structure.png Graphic file (type png)
 <use pics/Conv-model2-structure.png>
-Package pdftex.def Info: pics/Conv-model2-structure.png  used on input line 984
-.
+Package pdftex.def Info: pics/Conv-model2-structure.png  used on input line 101
+9.
 (pdftex.def)             Requested size: 324.9333pt x 420.30847pt.
 [26 <./pics/Conv-model2-structure.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 994--995
+Underfull \hbox (badness 10000) in paragraph at lines 1029--1030
 
  []
 
 <pics/Conv-model2-training2.png, id=299, 521.0667pt x 284.0211pt>
 File: pics/Conv-model2-training2.png Graphic file (type png)
 <use pics/Conv-model2-training2.png>
-Package pdftex.def Info: pics/Conv-model2-training2.png  used on input line 100
-1.
+Package pdftex.def Info: pics/Conv-model2-training2.png  used on input line 103
+6.
 (pdftex.def)             Requested size: 249.13121pt x 135.79552pt.
 <pics/Conv-model2-training.png, id=300, 514.5624pt x 284.0211pt>
 File: pics/Conv-model2-training.png Graphic file (type png)
 <use pics/Conv-model2-training.png>
-Package pdftex.def Info: pics/Conv-model2-training.png  used on input line 1006
+Package pdftex.def Info: pics/Conv-model2-training.png  used on input line 1041
 .
 (pdftex.def)             Requested size: 249.13847pt x 137.51604pt.
 <pics/Conv-model2-confusionmatrix.png, id=301, 444.4605pt x 312.2064pt>
 File: pics/Conv-model2-confusionmatrix.png Graphic file (type png)
 <use pics/Conv-model2-confusionmatrix.png>
 Package pdftex.def Info: pics/Conv-model2-confusionmatrix.png  used on input li
-ne 1018.
+ne 1053.
 (pdftex.def)             Requested size: 249.30988pt x 175.12498pt.
 [27 <./pics/Conv-model2-training2.png> <./pics/Conv-model2-training.png> <./pic
 s/Conv-model2-confusionmatrix.png>]
 <pics/LSTM-model1-structure.png, id=311, 588.1975pt x 3556.28625pt>
 File: pics/LSTM-model1-structure.png Graphic file (type png)
 <use pics/LSTM-model1-structure.png>
-Package pdftex.def Info: pics/LSTM-model1-structure.png  used on input line 104
-3.
+Package pdftex.def Info: pics/LSTM-model1-structure.png  used on input line 107
+8.
 (pdftex.def)             Requested size: 69.5126pt x 420.27847pt.
 [28 <./pics/LSTM-model1-structure.png>]
 <pics/LSTM-model1-training.png, id=317, 512.3943pt x 284.0211pt>
 File: pics/LSTM-model1-training.png Graphic file (type png)
 <use pics/LSTM-model1-training.png>
-Package pdftex.def Info: pics/LSTM-model1-training.png  used on input line 1060
+Package pdftex.def Info: pics/LSTM-model1-training.png  used on input line 1095
 .
 (pdftex.def)             Requested size: 249.1286pt x 138.09244pt.
 <pics/LSTM-model1-training2.png, id=318, 495.7722pt x 284.0211pt>
 File: pics/LSTM-model1-training2.png Graphic file (type png)
 <use pics/LSTM-model1-training2.png>
-Package pdftex.def Info: pics/LSTM-model1-training2.png  used on input line 106
-5.
+Package pdftex.def Info: pics/LSTM-model1-training2.png  used on input line 110
+0.
 (pdftex.def)             Requested size: 249.13368pt x 142.72527pt.
 <pics/LSTM-model1-confusionmatrix.png, id=319, 444.4605pt x 312.2064pt>
 File: pics/LSTM-model1-confusionmatrix.png Graphic file (type png)
 <use pics/LSTM-model1-confusionmatrix.png>
 Package pdftex.def Info: pics/LSTM-model1-confusionmatrix.png  used on input li
-ne 1077.
+ne 1112.
 (pdftex.def)             Requested size: 249.30988pt x 175.12498pt.
 [29 <./pics/LSTM-model1-training.png> <./pics/LSTM-model1-training2.png> <./pic
 s/LSTM-model1-confusionmatrix.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1094--1102
+Underfull \hbox (badness 10000) in paragraph at lines 1129--1137
 
  []
 
 <pics/LSTM-model2-structure.png, id=329, 4995.66376pt x 4878.225pt>
 File: pics/LSTM-model2-structure.png Graphic file (type png)
 <use pics/LSTM-model2-structure.png>
-Package pdftex.def Info: pics/LSTM-model2-structure.png  used on input line 110
-5.
+Package pdftex.def Info: pics/LSTM-model2-structure.png  used on input line 114
+0.
 (pdftex.def)             Requested size: 430.381pt x 420.26353pt.
 [30 <./pics/LSTM-model2-structure.png>]
 <pics/LSTM-model2-training.png, id=336, 512.3943pt x 284.0211pt>
 File: pics/LSTM-model2-training.png Graphic file (type png)
 <use pics/LSTM-model2-training.png>
-Package pdftex.def Info: pics/LSTM-model2-training.png  used on input line 1122
+Package pdftex.def Info: pics/LSTM-model2-training.png  used on input line 1157
 .
 (pdftex.def)             Requested size: 249.1286pt x 138.09244pt.
 <pics/LSTM-model2-training2.png, id=337, 505.89pt x 284.0211pt>
 File: pics/LSTM-model2-training2.png Graphic file (type png)
 <use pics/LSTM-model2-training2.png>
-Package pdftex.def Info: pics/LSTM-model2-training2.png  used on input line 112
-7.
+Package pdftex.def Info: pics/LSTM-model2-training2.png  used on input line 116
+2.
 (pdftex.def)             Requested size: 249.13878pt x 139.87363pt.
 <pics/LSTM-model2-confusionmatrix.png, id=338, 444.4605pt x 315.0972pt>
 File: pics/LSTM-model2-confusionmatrix.png Graphic file (type png)
 <use pics/LSTM-model2-confusionmatrix.png>
 Package pdftex.def Info: pics/LSTM-model2-confusionmatrix.png  used on input li
-ne 1139.
+ne 1174.
 (pdftex.def)             Requested size: 247.02437pt x 175.12622pt.
 [31 <./pics/LSTM-model2-training.png> <./pics/LSTM-model2-training2.png> <./pic
 s/LSTM-model2-confusionmatrix.png>]
 <pics/LSTM-model3-structure.png, id=349, 144.54pt x 605.8635pt>
 File: pics/LSTM-model3-structure.png Graphic file (type png)
 <use pics/LSTM-model3-structure.png>
-Package pdftex.def Info: pics/LSTM-model3-structure.png  used on input line 116
-5.
+Package pdftex.def Info: pics/LSTM-model3-structure.png  used on input line 120
+0.
 (pdftex.def)             Requested size: 83.56197pt x 350.26398pt.
 [32 <./pics/LSTM-model3-structure.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1173--1174
+Underfull \hbox (badness 10000) in paragraph at lines 1208--1209
 
  []
 
 <pics/LSTM-model3-training.png, id=357, 336.0555pt x 349.305pt>
 File: pics/LSTM-model3-training.png Graphic file (type png)
 <use pics/LSTM-model3-training.png>
-Package pdftex.def Info: pics/LSTM-model3-training.png  used on input line 1182
+Package pdftex.def Info: pics/LSTM-model3-training.png  used on input line 1217
 .
 (pdftex.def)             Requested size: 269.58316pt x 280.21188pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1188--1189
+Underfull \hbox (badness 10000) in paragraph at lines 1223--1224
 
  []
 
@@ -914,33 +909,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 1188--1189
 File: pics/LSTM-model3-confusionmatrix.png Graphic file (type png)
 <use pics/LSTM-model3-confusionmatrix.png>
 Package pdftex.def Info: pics/LSTM-model3-confusionmatrix.png  used on input li
-ne 1192.
+ne 1227.
 (pdftex.def)             Requested size: 209.42131pt x 175.1332pt.
 [33 <./pics/LSTM-model3-training.png> <./pics/LSTM-model3-confusionmatrix.png>]
 <pics/Transformer-structure.png, id=367, 1029.8475pt x 7725.86375pt>
 File: pics/Transformer-structure.png Graphic file (type png)
 <use pics/Transformer-structure.png>
-Package pdftex.def Info: pics/Transformer-structure.png  used on input line 121
-9.
+Package pdftex.def Info: pics/Transformer-structure.png  used on input line 125
+4.
 (pdftex.def)             Requested size: 65.3553pt x 490.29219pt.
 [34 <./pics/Transformer-structure.png>]
 <pics/Transformer_cosinewarmupdecay.png, id=374, 630.1944pt x 395.3169pt>
 File: pics/Transformer_cosinewarmupdecay.png Graphic file (type png)
 <use pics/Transformer_cosinewarmupdecay.png>
 Package pdftex.def Info: pics/Transformer_cosinewarmupdecay.png  used on input 
-line 1252.
+line 1287.
 (pdftex.def)             Requested size: 167.50075pt x 105.07213pt.
 <pics/Transformer_training.png, id=375, 511.6716pt x 284.0211pt>
 File: pics/Transformer_training.png Graphic file (type png)
 <use pics/Transformer_training.png>
-Package pdftex.def Info: pics/Transformer_training.png  used on input line 1266
+Package pdftex.def Info: pics/Transformer_training.png  used on input line 1301
 .
 (pdftex.def)             Requested size: 226.4869pt x 125.7194pt.
 <pics/Transformer_training2.png, id=376, 505.89pt x 284.0211pt>
 File: pics/Transformer_training2.png Graphic file (type png)
 <use pics/Transformer_training2.png>
-Package pdftex.def Info: pics/Transformer_training2.png  used on input line 127
-1.
+Package pdftex.def Info: pics/Transformer_training2.png  used on input line 130
+6.
 (pdftex.def)             Requested size: 226.48277pt x 127.1539pt.
 [35 <./pics/Transformer_cosinewarmupdecay.png> <./pics/Transformer_training.png
 > <./pics/Transformer_training2.png>]
@@ -948,20 +943,20 @@ Package pdftex.def Info: pics/Transformer_training2.png  used on input line 127
 File: pics/Transformer_confusionmatrix.png Graphic file (type png)
 <use pics/Transformer_confusionmatrix.png>
 Package pdftex.def Info: pics/Transformer_confusionmatrix.png  used on input li
-ne 1316.
+ne 1351.
 (pdftex.def)             Requested size: 247.60083pt x 175.1323pt.
 <pics/Decisiontree-confusionmatrix.png, id=387, 241.50224pt x 195.73125pt>
 File: pics/Decisiontree-confusionmatrix.png Graphic file (type png)
 <use pics/Decisiontree-confusionmatrix.png>
 Package pdftex.def Info: pics/Decisiontree-confusionmatrix.png  used on input l
-ine 1335.
+ine 1370.
 (pdftex.def)             Requested size: 216.0897pt x 175.13506pt.
 [36 <./pics/Transformer_confusionmatrix.png> <./pics/Decisiontree-confusionmatr
 ix.png>]
 <pics/Results.jpg, id=396, 499.11469pt x 387.69844pt>
 File: pics/Results.jpg Graphic file (type jpg)
 <use pics/Results.jpg>
-Package pdftex.def Info: pics/Results.jpg  used on input line 1346.
+Package pdftex.def Info: pics/Results.jpg  used on input line 1381.
 (pdftex.def)             Requested size: 452.98413pt x 351.86551pt.
 [37 <./pics/Results.jpg>] [38] [39] (./README3.aux)
  ***********
@@ -970,10 +965,10 @@ L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 15172 strings out of 474116
- 244480 string characters out of 5743683
+ 15174 strings out of 474116
+ 244501 string characters out of 5743683
  1944187 words of memory out of 5000000
- 37048 multiletter control sequences out of 15000+600000
+ 37050 multiletter control sequences out of 15000+600000
  615621 words of font info for 144 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  83i,8n,93p,1196b,579s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -983,7 +978,7 @@ cal/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbx9.pfb></usr/local/texlive
 -dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts
 /type1/public/lm/lmr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/publ
 ic/lm/lmssbx10.pfb>
-Output written on README3.pdf (39 pages, 3555212 bytes).
+Output written on README3.pdf (39 pages, 3556885 bytes).
 PDF statistics:
  573 PDF objects out of 1000 (max. 8388607)
  396 compressed objects within 4 object streams

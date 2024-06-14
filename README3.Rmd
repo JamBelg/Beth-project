@@ -1,5 +1,9 @@
 ---
-title: "Application of various Machine Learning models on real cybersecurity data (BETH dataset)"
+title: "CAS Thesis in Advanced Machine Learning"
+subtitle: |
+  | Application of various Machine Learning models on real cybersecurity data
+  | (BETH dataset)
+
 author: "Jamel Belgacem - Papa Moryba Kouate"
 date: "`r format(Sys.Date(), '%d.%m.%Y')`"
 output:
@@ -84,28 +88,29 @@ Data are already divided into training, valadating and testing dataset (60% / 20
 ## Features
 Each of this dataset (training, valadating and testing dataset) has features showed in the below table. We have also created charts that provide visual insight into the frequency distribution of various entities (like host names, process names, threadId, etc.) using logarithmic scaling and color gradients to highlight differences in counts.
 
- ![Features](pics/features.png){width=60%, height=50%}
+ ![Features](pics/features.png){width=30%, height=20%}
 
  - timestamp: time in seconds since system  boot (float)
 
- - processId: id of the process spawning this log (integer)
+ - processId: id of the process spawning this log (integer)\
+  The bar chart shows the top 20 process IDs (PIDs) based on their count. The process labeled “Else” has the highest count, far exceeding the counts of any individual Process ID. PID 159 has the second-highest count, noticeably higher than the rest of the process IDs, though much lower than “Else”. Each colored bar represents a distinct process ID, with colors transitioning from dark purple for higher counts to lighter green for lower counts.
  
- ![Process ID](pics/train_processid_plot.png){width=40%, height=33%}
+ ![Process ID](pics/train_processid_plot.png){width=30%, height=30%}
 
 
  - threadId: id of the thread (integer) \
- There is a total of 545 thread ids. ThreadId and processId seems to have the same distribution.
+ The thread IDs “159”, “1”, “7373”, “7371”, and “7374” follow in decreasing order. The counts are plotted on a logarithmic scale.
  
  ![Thread ID](pics/train_threadid_plot.png){width=40%, height=35%}
 
  - parentProcessId: parent process id (integer)
+ Parent process ID “187” has the highest count, nearing 100,000 occurrences. Other IDs such as “7099”, “1”, “1469”, “188”, and “1336” show decreasing counts. The counts are plotted on a logarithmic scale.
  
  ![Parent process ID](pics/train_parentprocessid_plot.png){width=40%, height=33%}
 
 \newpage
 
- - userId: login integer id (integer)
-
+ - userId: login integer id (integer) \
     – The dataset is highly imbalanced with respect to user IDs, particularly dominated by user ID “0.”
     – The presence of a few other user IDs with significantly lower frequencies indicates that the data might be heavily skewed towards certain users.
     
@@ -113,7 +118,7 @@ Each of this dataset (training, valadating and testing dataset) has features sho
 
 
  - mountNamespace: Set mounting restrictions this process log (integer) \
- The distribution is heavily skewed towards the top two IDs (4026531840 and 4026532217), which together constitute the majority of the dataset. The remaining IDs have relatively few occurrences.
+ The mount namespace with the label “4026531840” has the highest count, reaching more than 100,000 occurrences. Other labels such as “4026532217”, “4026532232”, “4026532229”, “4026532231”, and “4026532288” follow in descending order.
  
  ![Mount name space](pics/train_mountnamespace_plot.png){width=40%, height=33%}
 
@@ -121,24 +126,22 @@ Each of this dataset (training, valadating and testing dataset) has features sho
 
  - processName: command executed (string) \
  The dataset is dominated by a few process names, with “ps” being the most frequent. \
- A large number of process names have very low counts, contributing to a highly skewed distribution.
+ Other process names such as “systemd-udevd”, “sshd”, “systemd-journal”, and “systemd” follow in decreasing order. A large number of processes are included, some with very small counts compared to “ps”.
     
  ![Process name](pics/train_processname_plot.png){width=43%, height=43%}
 
 
- - hostName: host server (string)
+ - hostName: host server (string)\
+ The hostname “ubuntu” has the highest count, nearly reaching 200,000 occurrences. Other hostnames such as “ip-10-100-1-57”, “ip-10-100-1-120”, “ip-10-100-1-28”, “ip-10-100-1-55”, and “ip-10-100-1-173” show a descending count, with the least count observed for “ip-10-100-1-79”
  
  ![Host name](pics/train_hostname_plot.png){width=20%, height=25%}
 
 \newpage
 
- - eventId: id of the event generating this log (integer)
- 
+ - eventId and eventName: id of the event generating this log (integer) \
+  Event ID (or Event Name) “3” has the highest count, exceeding (10^5). Following IDs include “257”, “1005”, “4”, “21”, “1008”, and many others, with gradually fewer occurrences.
+  
  ![Event ID](pics/train_eventid_plot.png){width=40%, height=50%}
-
-\
-
- - eventName: name of the event (string)
  
  ![Event name](pics/train_eventname_plot.png){width=40%, height=50%}
 
@@ -162,7 +165,8 @@ Each of this dataset (training, valadating and testing dataset) has features sho
 
 \newpage
 
- - argsNum: number of arguments (integer)
+ - argsNum: number of arguments (integer) \
+ ArgNum indicates the number of dictionaries that contains each Timestamp. And in the plot below you can observe that the most common numbers of arguments for each timestamp are 1, 2, and 4, with 4 being the most dominant by a significant margin. 0, 3, or 5 arguments is relatively rare, with zero and five arguments being the least common. The data shows a non-linear distribution with clear peaks at 1, 2, and 4 arguments.
  
  ![Args](pics/argsNum_barplot.png){width=30%, height=25%}
 
@@ -289,13 +293,13 @@ SMOTE (Synthetic Minority Oversampling TEchnique) [2] works by interpolating new
 
 
 ## Shapelet discovery method
-Shapelet discovery [3] is a technique used in time series analysis to identify discriminative subpatterns, known as shapelets, within a set of time series data. Shapelets are subsequences that capture characteristic patterns or behaviors in the data.
-The process of shapelet discovery involves searching through the time series data to find subsequences that are representative of different classes or categories like in our case for **suspicious activities and not suspicious activities**. 
-The similarity or distance between each subsequence and the rest of the data is computed to determine its discriminative power. The shapelets with the highest discriminative power are selected as representative patterns.
+Shapelet discovery is a technique used in time series analysis to identify discriminative subpatterns, known as shapelets, within a set of time series data. Shapelets are subsequences that capture characteristic patterns or behaviors in the data. The process of shapelet discovery involves searching through the time series data to find subsequences that are representative of different classes or categories like in our case for **suspicious activities and not suspicious activities**. The similarity or distance between each subsequence and the rest of the data is computed to determine its discriminative power. The shapelets with the highest discriminative power are selected as representative patterns.
 
 So the shapelet discovery can use the matrix profile as a tool for efficiently computing the distances or similarities between subsequences. By utilizing the matrix profile, shapelet discovery algorithms can reduce the computational complexity and speed up the process of identifying shapelets.
 
-The following chart describe how the comparison with the suspicious activity differs to the comparison with the not suspicious activity.
+With the concept of matrix profile, we tried to find conserved behaviours in the data. In fact, a comparison between sequences can be done by looking at the euclidean distance between all the points in two subsequences and represent the distances in a matrix profile.
+
+For the high computational requirements, in order to experiment the shapelet discovery method, we decided to adopt a sample of 230.000 datapoints and see how this method performs for the Decision tree classifier, LSTM and the Dense model.
 
 
 # Models
@@ -419,7 +423,7 @@ The following chart describe how the comparison with the suspicious activity dif
    
       ![Model 4 accuracy and loss](pics/Dense-model4-training.png){width=50%, height=40%}
 
-   - **Confusion Matrix** \
+   - **Prediction** \
       The confusion matrix shows that we have few false negatives (913) and few false positives (12).
       
       ![Model 4 confusion matrix](pics/Dense-model4-confusionmatrix.png){width=25%, height=25%}
@@ -677,7 +681,7 @@ A major challenge was handling the highly imbalanced dataset. The BETH dataset i
 
 **Model-Specific Results**
 
-* Dense Neural Networks (DNNs): The DNN models showed varying results, with some models performing well and others not. The use of embeddings in DNNs (Model 2) significantly improved performance compared to models without embeddings. However, Model 3, after applying SMOTE, showed insufficient performance, indicating a lack of learning ability from the augmented data.
+* Dense Neural Networks (DNNs): The DNN models showed varying results, with some models performing well and others not. The use of embeddings in DNNs (Model 2) significantly improved performance compared to models without embeddings. However, Model 3, after applying SMOTE, showed insufficient performance, indicating a lack of learning ability from the augmented data. The method of Shapelet Discovery applied on the Dense model shows a good performace on a small sample of data that indicate a potentiality of this method applied to the Dense alghoritm.
 
 * Convolutional Neural Networks (CNNs): CNNs, particularly Models 5 and 6, achieved high accuracies and low error rates. This suggests that CNNs are well-suited to recognize structural features in the data, especially when using embeddings.
 
@@ -685,7 +689,7 @@ A major challenge was handling the highly imbalanced dataset. The BETH dataset i
 
 * Transformer: The transformer showed the best overall performance, particularly through the use of positional encoding and multi-layer self-attention, enhancing its ability to detect complex patterns in the data.
 
-* Decision Tree Classifier with Shapelet Discovery: Although this approach had a low number of misclassifications, it was overall less effective than the neural networks.
+* Decision Tree Classifier with Shapelet Discovery: this approach presents a low number of misclassifications and a good accuracy level.
 
 **Improvement Suggestions**
 
