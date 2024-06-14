@@ -82,11 +82,11 @@ The BETH dataset addresses a critical need in cybersecurity research: the availa
 \newpage
 
 # Data analysis
-The Beth dataset represents more than 8 milions events collected over 23 honeypots, only nearly 1 milion of it will be used on this project.
-Data are already divided into training, valadating and testing dataset (60% / 20% /20%).
+The Beth dataset represents more than 8 millions events collected over 23 honeypots, only nearly 1 million of it will be used on this project.
+Data are already divided into training, validating and testing dataset (60% / 20% /20%).
 
 ## Features
-Each of this dataset (training, valadating and testing dataset) has features showed in the below table. We have also created charts that provide visual insight into the frequency distribution of various entities (like host names, process names, threadId, etc.) using logarithmic scaling and color gradients to highlight differences in counts.
+Each of this dataset (training, validating and testing dataset) has features showed in the below table. We have also created charts that provide visual insight into the frequency distribution of various entities (like host names, process names, threadId, etc.) using logarithmic scaling and color gradients to highlight differences in counts.
 
  ![Features](pics/features.png){width=30%, height=20%}
 
@@ -242,7 +242,7 @@ Each of this dataset (training, valadating and testing dataset) has features sho
       - mountNamespace: Shows mostly weak correlations with other features, suggesting that mountNamespace values are relatively independent of other variables.
 
 ## Event Frequency 
-The following chart shows the entire frequency of suspicius and not suspicius event:
+The following chart shows the entire frequency of suspicious and not suspicious event:
 
 ![Suspicius and not suspicius event](pics/frequency_sus&notsus.png){width=50%, height=50%}
 
@@ -258,7 +258,7 @@ Overall, the chart shows that "Not Suspicious" events occur more frequently and 
 
 # Data preparation
 ## Numerical data transformation
-As adviced by the authors of the beth dataset's paper, we applied these transformation:
+As adviced by the authors of the Beth dataset's paper, we applied these transformation:
  - ProcessId and ParentprocessId: 0 if it is [0,1,2] otherwise 1
  - UserId: 0 if id is less than 1000 otherwise 1
  - MountNameSpace: 0 if it is equal to 4026531840 otherwise 1
@@ -269,12 +269,12 @@ Stackaddresses sf a list of numerics with a maximum of 20 elements.
 We created 20 new columns named "stack_1", "stack_2", etc. in each dataset, and assigns each element from the list to its respective new column.
 
 ## Args
-Args column contains a list of maximum 5 dictionaries, each disctionary contains three elements ({'name': 'dev', 'type': 'dev_t', 'value': 211812353}).
-We created 15 new columns in each datset, and assigns each element from the dictionaries to its respective new column.
+Args column contains a list of maximum 5 dictionaries, each dictionary contains three elements ({'name': 'dev', 'type': 'dev_t', 'value': 211812353}).
+We created 15 new columns in each dataset, and assigns each element from the dictionaries to its respective new column.
 
 ## Ordinal encoding
 Ordinal encoding is a technique for converting categorical data, where variables have distinct labels or categories, into numerical form suitable for machine learning algorithms. It assigns a unique integer value to each category based on its order or rank.
-As our approch is for an unsupervised model, we used ordinal encoder to handle new classes not present in the training dataset.\
+As our approach is for an unsupervised model, we used ordinal encoder to handle new classes not present in the training dataset.\
 Ordinal encoder will assign -1 value to unknown classes (labels not present in the training dataset)
 
 ![Ordinal encoder](pics/Ordinal encoder.png){width=50%, height=50%}
@@ -285,9 +285,9 @@ Numerical features are scaled to similar range as they have different scales.
 Since we used ordinal encoding for categorical features, scaling is not necessary. Ordinal encoding preserves the order of the categories, but the assigned values don't necessarily reflect their magnitude.
 
 ## Smote
-Dealing with unbalanced data can be tricky, most of the machine learning model will give good results for big classes and poor performance on the minority althought, as it is our case, minority class is more important.
-To balance that, we tried to use Smote library combined as it is adviced with randoom undersampling for the majority class.
-SMOTE (Synthetic Minority Oversampling TEchnique) [2] works by interpolating new instances along line segments joining existing minority class instances.
+Dealing with unbalanced data can be tricky, most of the machine learning model will give good results for big classes and poor performance on the minority although, as it is our case, minority class is more important.
+To balance that, we tried to use Smote library combined as it is adviced with random undersampling for the majority class.
+SMOTE (Synthetic Minority Oversampling Technique) [2] works by interpolating new instances along line segments joining existing minority class instances.
 
 ![Smote](pics/Smote_pca.png){width=50%, height=50%}
 
@@ -297,7 +297,7 @@ Shapelet discovery is a technique used in time series analysis to identify discr
 
 So the shapelet discovery can use the matrix profile as a tool for efficiently computing the distances or similarities between subsequences. By utilizing the matrix profile, shapelet discovery algorithms can reduce the computational complexity and speed up the process of identifying shapelets.
 
-With the concept of matrix profile, we tried to find conserved behaviours in the data. In fact, a comparison between sequences can be done by looking at the euclidean distance between all the points in two subsequences and represent the distances in a matrix profile.
+With the concept of matrix profile, we tried to find conserved behaviors in the data. In fact, a comparison between sequences can be done by looking at the euclidean distance between all the points in two subsequences and represent the distances in a matrix profile.
 
 For the high computational requirements, in order to experiment the shapelet discovery method, we decided to adopt a sample of 230.000 datapoints and see how this method performs for the Decision tree classifier, LSTM and the Dense model.
 
@@ -380,7 +380,7 @@ For the high computational requirements, in order to experiment the shapelet dis
 
 ### Model 3
    - **Description**
-      This model is similar to **Model 1**, this model is trained on data after appluying Smote data augmentation technic.
+      This model is similar to **Model 1**, this model is trained on data after applying Smote data augmentation technic.
       
       ![Dense neural network - Model 3](pics/Dense-smote-structure.png){width=50%, height=60%}
 
@@ -585,7 +585,7 @@ For the high computational requirements, in order to experiment the shapelet dis
 
    - **Training**\
    
-      As the graphes show, the LSTM doesn't give good resulst when you apply the shapeet discovery method. The performace of the model is really poor and ineffective.
+      As the graphs show, the LSTM doesn't give good results when you apply the shapelet discovery method. The performance of the model is really poor and ineffective.
 
 
   ![Model 9 accuracy and loss](pics/LSTM-model3-training.png){width=50%, height=40%}
@@ -614,7 +614,7 @@ For the high computational requirements, in order to experiment the shapelet dis
    - The transformer_encoder_block applies multi-head self-attention to the inputs, enabling the model to focus on different parts of the sequence simultaneously.This is followed by a dropout layer for regularization and layer normalization to stabilize and speed up training.\
    Finally, a feed-forward neural network with a dense layer, dropout, and another layer normalization is used to further process the attention output, enhancing the model's capacity to capture complex patterns in the data.
 
-   - This model uses Adam optimizer with a **WarmUpCosineDecay** learning rate. During the warmup phase, the learning rate increases linearly, and once the warmup steps are completed, it follows a cosine decay pattern to gradually reduce the learning rate.
+   - This model uses Adam optimizer with a **WarmUpCosineDecay** learning rate. During the warm-up phase, the learning rate increases linearly, and once the warm-up steps are completed, it follows a cosine decay pattern to gradually reduce the learning rate.
        
   ![Learning rate decay](pics/Transformer_cosinewarmupdecay.png){width=15%, height=15%}
 
@@ -654,7 +654,7 @@ For the high computational requirements, in order to experiment the shapelet dis
 
 - **Prediction**:
 
-  The confusuion matrix shows a small number of False Positives (25), which is good as it shows the model rarely predicts class 1 when the true class is 0. A relatively low number of False Negatives (1989), indicating the model occasionally misses class 1 predictions. Overall the model seems to learn.
+  The confusion matrix shows a small number of False Positives (25), which is good as it shows the model rarely predicts class 1 when the true class is 0. A relatively low number of False Negatives (1989), indicating the model occasionally misses class 1 predictions. Overall the model seems to learn.
 
   ![Transformer Confusion matrix](pics/Decisiontree-confusionmatrix.png){width=25%, height=25%}
 
@@ -681,7 +681,7 @@ A major challenge was handling the highly imbalanced dataset. The BETH dataset i
 
 **Model-Specific Results**
 
-* Dense Neural Networks (DNNs): The DNN models showed varying results, with some models performing well and others not. The use of embeddings in DNNs (Model 2) significantly improved performance compared to models without embeddings. However, Model 3, after applying SMOTE, showed insufficient performance, indicating a lack of learning ability from the augmented data. The method of Shapelet Discovery applied on the Dense model shows a good performace on a small sample of data that indicate a potentiality of this method applied to the Dense alghoritm.
+* Dense Neural Networks (DNNs): The DNN models showed varying results, with some models performing well and others not. The use of embeddings in DNNs (Model 2) significantly improved performance compared to models without embeddings. However, Model 3, after applying SMOTE, showed insufficient performance, indicating a lack of learning ability from the augmented data. The method of Shapelet Discovery applied on the Dense model shows a good performance on a small sample of data that indicate a potentiality of this method applied to the Dense algorithm.
 
 * Convolutional Neural Networks (CNNs): CNNs, particularly Models 5 and 6, achieved high accuracies and low error rates. This suggests that CNNs are well-suited to recognize structural features in the data, especially when using embeddings.
 
