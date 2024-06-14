@@ -440,7 +440,7 @@ Our experiments with the Shapelet Discovery method showed that while it is theor
 
 **Model-Specific Results**
 
-   1. Dense Neural Networks (DNNs): The DNN models showed varying results, with some models performing well and others not. The use of embeddings in DNNs (Model 2) significantly improved performance compared to models without embeddings. However, Model 3, after applying SMOTE, showed insufficient performance, indicating a lack of learning ability from the augmented data. The method os Shapelet Discovery applied on the Dense model shows a good performace on a small sample of data that indicate a potentiality of this method applied to the Dense alghoritm. 
+   1. Dense Neural Networks (DNNs): The DNN models showed varying results, with some models performing well and others not. The use of embeddings in DNNs (Model 2) significantly improved performance compared to models without embeddings. However, Model 3, after applying SMOTE, showed insufficient performance, indicating a lack of learning ability from the augmented data. The method of Shapelet Discovery applied on the Dense model shows a good performace on a small sample of data that indicate a potentiality of this method applied to the Dense alghoritm. 
 
    2. Convolutional Neural Networks (CNNs): CNNs, particularly Models 5 and 6, achieved high accuracies and low error rates. This suggests that CNNs are well-suited to recognize structural features in the data, especially when using embeddings.
 
