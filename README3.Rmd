@@ -283,13 +283,13 @@ Since we used ordinal encoding for categorical features, scaling is not necessar
 ## Smote
 Dealing with unbalanced data can be tricky, most of the machine learning model will give good results for big classes and poor performance on the minority althought, as it is our case, minority class is more important.
 To balance that, we tried to use Smote library combined as it is adviced with randoom undersampling for the majority class.
-SMOTE (Synthetic Minority Oversampling TEchnique) works by interpolating new instances along line segments joining existing minority class instances.
+SMOTE (Synthetic Minority Oversampling TEchnique) [2] works by interpolating new instances along line segments joining existing minority class instances.
 
 ![Smote](pics/Smote_pca.png){width=50%, height=50%}
 
 
 ## Shapelet discovery method
-Shapelet discovery is a technique used in time series analysis to identify discriminative subpatterns, known as shapelets, within a set of time series data. Shapelets are subsequences that capture characteristic patterns or behaviors in the data.
+Shapelet discovery [3] is a technique used in time series analysis to identify discriminative subpatterns, known as shapelets, within a set of time series data. Shapelets are subsequences that capture characteristic patterns or behaviors in the data.
 The process of shapelet discovery involves searching through the time series data to find subsequences that are representative of different classes or categories like in our case for **suspicious activities and not suspicious activities**. 
 The similarity or distance between each subsequence and the rest of the data is computed to determine its discriminative power. The shapelets with the highest discriminative power are selected as representative patterns.
 
